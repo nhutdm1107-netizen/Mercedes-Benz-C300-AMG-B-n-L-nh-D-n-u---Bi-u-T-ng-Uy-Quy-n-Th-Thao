@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mercedes-Benz C300 AMG | Bản Lĩnh Dẫn Đầu - Biểu Tượng Uy Quyền Thể Thao</title>
+  <meta name="description" content="Khám phá Mercedes-Benz C300 AMG thế hệ mới. Thiết kế AMG Line thể thao, động cơ Mild-Hybrid 258HP EQ Boost, công nghệ MBUX 11.9 inch và hệ thống đèn Digital Light đỉnh cao. Đăng ký lái thử ngay hôm nay!">
+  
+  <!-- Inline Script To Prevent Theme Flash -->
+  <script>
+    if (localStorage.theme === 'light' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: light)').matches)) {
+      document.documentElement.classList.remove('dark');
+    } else {
+      document.documentElement.classList.add('dark');
+    }
+  </script>
+
+  <!-- Google Fonts: Plus Jakarta Sans & Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            mercedes: {
+              black: '#090a0c',
+              dark: '#111317',
+              card: '#161920',
+              border: '#232733',
+              silver: '#e2e8f0',
+              silverMuted: '#94a3b8',
+              gold: '#c5a059',
+              goldHover: '#b38e47',
+              amgRed: '#e10600',
+              amgRedDark: '#b80500',
+              cyan: '#00d2ff',
+              lightBg: '#f8fafc',
+              lightCard: '#ffffff',
+              lightBorder: '#e2e8f0',
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            heading: ['"Montserrat"', 'sans-serif'],
+          },
+          backgroundImage: {
+            'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+            'metallic': 'linear-gradient(135deg, #1e222d 0%, #0d0f13 100%)',
+            'gold-metallic': 'linear-gradient(135deg, #dfba73 0%, #c5a059 50%, #9e7b32 100%)',
+            'silver-metallic': 'linear-gradient(135deg, #ffffff 0%, #cbd5e1 50%, #64748b 100%)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    html {
+      transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      overflow-x: hidden;
+    }
+    .font-luxury {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    /* Glass card styles - Dark vs Light */
+    .glass-card {
+      background: rgba(22, 25, 32, 0.75);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    html:not(.dark) .glass-card {
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(226, 232, 240, 0.9);
+      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.05);
+    }
+
+    .glass-card-hover {
+      transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .glass-card-hover:hover {
+      transform: translateY(-6px);
+      border-color: rgba(197, 160, 89, 0.45);
+      box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.8), 0 0 25px -5px rgba(197, 160, 89, 0.15);
+    }
+    html:not(.dark) .glass-card-hover:hover {
+      box-shadow: 0 20px 40px -10px rgba(197, 160, 89, 0.18), 0 10px 20px -5px rgba(15, 23, 42, 0.08);
+      border-color: rgba(197, 160, 89, 0.6);
+    }
+
+    .glow-gold {
+      box-shadow: 0 0 35px -5px rgba(197, 160, 89, 0.35);
+    }
+    .glow-red {
+      box-shadow: 0 0 30px -5px rgba(225, 6, 0, 0.4);
+    }
+    
+    .text-gradient-gold {
+      background: linear-gradient(135deg, #fcebc5 0%, #c5a059 50%, #9a762c 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    html:not(.dark) .text-gradient-gold {
+      background: linear-gradient(135deg, #b8860b 0%, #c5a059 50%, #8c6312 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #090a0c;
+    }
+    html:not(.dark) ::-webkit-scrollbar-track {
+      background: #f1f5f9;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #232733;
+      border-radius: 4px;
+    }
+    html:not(.dark) ::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #c5a059;
+    }
+  </style>
+</head>
+<body class="bg-mercedes-lightBg text-slate-800 dark:bg-mercedes-black dark:text-mercedes-silver transition-colors duration-300 selection:bg-mercedes-amgRed selection:text-white">
+
+  <!-- TOP URGENCY ANNOUNCEMENT BAR -->
+  <aside aria-label="Ưu đãi tháng" class="bg-gradient-to-r from-slate-950 via-mercedes-amgRedDark to-slate-950 text-white text-xs sm:text-sm py-2 px-4 border-b border-white/10 sticky top-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center space-x-2">
+        <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-bold bg-white text-mercedes-amgRed uppercase tracking-wider animate-pulse shadow-sm">
+          Đặc Quyền Tháng 11
+        </span>
+        <span class="font-medium text-slate-100">
+          Tặng 100% Lệ Phí Trước Bạ &amp; 02 Năm Bảo Dưỡng Miễn Phí (Chỉ còn <strong class="text-white underline decoration-mercedes-gold font-bold">04 suất</strong> cuối cùng)
+        </span>
+      </div>
+      <div class="flex items-center space-x-4">
+        <div class="hidden md:flex items-center space-x-1.5 font-mono text-xs text-amber-200">
+          <i class="fa-regular fa-clock text-mercedes-gold"></i>
+          <span>Ưu đãi khép lại sau:</span>
+          <span id="top-timer" class="font-bold tracking-widest text-white bg-black/40 px-2 py-0.5 rounded border border-white/10">03:14:28:45</span>
+        </div>
+        <a href="#offer-section" class="text-xs font-semibold text-mercedes-gold hover:text-white underline transition">
+          Nhận Ưu Đãi <i class="fa-solid fa-arrow-right text-[10px] ml-1"></i>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- NAVIGATION HEADER -->
+  <header class="bg-white/90 dark:bg-mercedes-black/90 backdrop-blur-md border-b border-slate-200 dark:border-white/5 sticky top-[37px] z-40 transition-all duration-300 shadow-sm dark:shadow-none">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center space-x-3 group">
+        <div class="w-10 h-10 rounded-full border border-slate-400 dark:border-mercedes-silver/40 flex items-center justify-center text-slate-800 dark:text-mercedes-silver text-xl group-hover:border-mercedes-gold group-hover:text-mercedes-gold transition shadow-sm">
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="flex flex-col">
+          <span class="text-lg font-heading font-black tracking-widest text-slate-900 dark:text-white uppercase leading-none">
+            Mercedes-Benz
+          </span>
+          <span class="text-[10px] font-mono tracking-widest text-mercedes-gold font-bold uppercase mt-1">
+            Vietnam Star Authorized Dealer
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <nav class="hidden lg:flex items-center space-x-8 text-sm font-semibold text-slate-600 dark:text-mercedes-silverMuted">
+        <a href="#hero" class="hover:text-mercedes-gold dark:hover:text-white transition">Tổng Quan</a>
+        <a href="#social-proof" class="hover:text-mercedes-gold dark:hover:text-white transition">Uy Tín &amp; Đánh Giá</a>
+        <a href="#features" class="hover:text-mercedes-gold dark:hover:text-white transition">4 Giá Trị Cốt Lõi</a>
+        <a href="#pricing" class="hover:text-mercedes-gold dark:hover:text-white transition">Dự Toán Lăn Bánh</a>
+        <a href="#specs" class="hover:text-mercedes-gold dark:hover:text-white transition">Thông Số Kỹ Thuật</a>
+      </nav>
+
+      <!-- Desktop Action Controls -->
+      <div class="hidden sm:flex items-center space-x-4">
+        
+        <!-- Dark/Light Mode Switcher Button (Desktop) -->
+        <button onclick="toggleTheme()" 
+                id="theme-toggle-desktop"
+                aria-label="Chuyển đổi giao diện Sáng / Tối" 
+                class="flex items-center justify-center w-10 h-10 rounded-full bg-slate-100 hover:bg-slate-200 dark:bg-white/10 dark:hover:bg-white/20 text-slate-700 dark:text-mercedes-silver border border-slate-300 dark:border-white/15 transition duration-300 shadow-sm"
+                title="Chuyển giao diện Sáng / Tối">
+          <i class="theme-icon text-base"></i>
+        </button>
+
+        <!-- VIP Hotline -->
+        <a href="tel:0909123456" class="flex items-center space-x-2 text-sm text-slate-700 dark:text-mercedes-silver hover:text-mercedes-gold transition">
+          <div class="w-9 h-9 rounded-full bg-slate-100 dark:bg-white/5 flex items-center justify-center text-mercedes-gold border border-slate-200 dark:border-white/10 shadow-sm">
+            <i class="fa-solid fa-phone-volume text-xs"></i>
+          </div>
+          <div class="text-left">
+            <span class="text-[10px] text-slate-500 dark:text-slate-400 block uppercase font-medium">Hotline VIP 24/7</span>
+            <span class="font-bold text-slate-900 dark:text-white tracking-wider">0909.123.456</span>
+          </div>
+        </a>
+
+        <!-- Test Drive CTA -->
+        <a href="#testdrive-modal" onclick="openModal()" class="px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider bg-gradient-to-r from-mercedes-amgRed to-mercedes-amgRedDark text-white hover:brightness-110 shadow-lg glow-red transition transform hover:-translate-y-0.5">
+          Đăng Ký Lái Thử
+        </a>
+      </div>
+
+      <!-- Mobile Right Controls (Theme Toggle + Hamburger) -->
+      <div class="flex items-center space-x-2 lg:hidden">
+        <button onclick="toggleTheme()" 
+                aria-label="Chuyển đổi chế độ sáng tối"
+                class="w-9 h-9 rounded-full bg-slate-100 dark:bg-white/10 text-slate-700 dark:text-mercedes-silver flex items-center justify-center border border-slate-200 dark:border-white/15">
+          <i class="theme-icon text-sm"></i>
+        </button>
+        <button id="mobile-toggle" aria-label="Mở menu điều hướng" class="text-slate-800 dark:text-white p-2 text-xl focus:outline-none">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-white dark:bg-mercedes-card border-b border-slate-200 dark:border-mercedes-border px-6 py-4 space-y-4 shadow-xl">
+      <a href="#hero" class="block text-slate-700 dark:text-mercedes-silver hover:text-mercedes-gold font-medium py-1">Tổng Quan</a>
+      <a href="#social-proof" class="block text-slate-700 dark:text-mercedes-silver hover:text-mercedes-gold font-medium py-1">Uy Tín &amp; Đánh Giá</a>
+      <a href="#features" class="block text-slate-700 dark:text-mercedes-silver hover:text-mercedes-gold font-medium py-1">4 Giá Trị Cốt Lõi</a>
+      <a href="#pricing" class="block text-slate-700 dark:text-mercedes-silver hover:text-mercedes-gold font-medium py-1">Dự Toán Lăn Bánh</a>
+      <a href="#offer-section" class="block text-mercedes-gold font-bold py-1">Đặc Quyền Tháng 11</a>
+      
+      <!-- Theme Switcher Row in Mobile -->
+      <div class="flex items-center justify-between py-2 border-t border-slate-200 dark:border-white/10">
+        <span class="text-xs font-semibold text-slate-600 dark:text-slate-300">Chế độ giao diện:</span>
+        <button onclick="toggleTheme()" class="flex items-center space-x-2 px-3 py-1.5 rounded-full bg-slate-100 dark:bg-white/10 text-xs font-semibold text-slate-800 dark:text-white border border-slate-300 dark:border-white/20">
+          <i class="theme-icon text-xs"></i>
+          <span class="theme-text">Giao diện Sáng</span>
+        </button>
+      </div>
+
+      <div class="pt-2 border-t border-slate-200 dark:border-white/10 flex flex-col gap-2">
+        <a href="tel:0909123456" class="text-center py-2.5 rounded-lg border border-mercedes-gold/60 text-mercedes-gold text-sm font-bold bg-mercedes-gold/5">
+          <i class="fa-solid fa-phone mr-2"></i> Gọi Hotline VIP: 0909.123.456
+        </a>
+        <button onclick="openModal()" class="w-full py-2.5 rounded-lg bg-mercedes-amgRed text-white text-sm font-bold uppercase shadow-md">
+          Đăng Ký Lái Thử Tại Nhà
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================== -->
+  <!-- KHỐI 1: HERO SECTION (ATTENTION - 3 GIÂY ĐẦU) -->
+  <!-- ========================================== -->
+  <section id="hero" class="relative min-h-[92vh] flex items-center justify-center overflow-hidden pt-8 pb-16">
+    <!-- Visual Background: AMG Cinematic Shot with dynamic light/dark overlay -->
+    <div class="absolute inset-0 z-0">
+      <img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=2000&q=85" 
+           alt="Mercedes C300 AMG Luxury Sedan Background" 
+           class="w-full h-full object-cover object-center brightness-[0.38] contrast-[1.15] scale-105 transform animate-[pulse_10s_ease-in-out_infinite]" />
+      
+      <!-- Dark mode overlay gradient -->
+      <div class="absolute inset-0 bg-gradient-to-t from-mercedes-black via-mercedes-black/60 to-mercedes-black/40 hidden dark:block"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-mercedes-black via-transparent to-mercedes-black/80 hidden dark:block"></div>
+      
+      <!-- Light mode overlay: sleek deep charcoal cinematic gradient ensuring readable contrast -->
+      <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/75 to-slate-900/60 block dark:hidden"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-transparent to-slate-950/80 block dark:hidden"></div>
+
+      <!-- Subtle AMG Glow effect -->
+      <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-mercedes-cyan/15 blur-[120px] pointer-events-none rounded-full"></div>
+    </div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
+      
+      <!-- Top Badge / Sub-tagline -->
+      <div class="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-white/10 dark:bg-white/5 border border-white/20 dark:border-white/10 backdrop-blur-md mb-6 hover:border-mercedes-gold/50 transition shadow-lg">
+        <span class="w-2 h-2 rounded-full bg-mercedes-amgRed animate-ping"></span>
+        <span class="w-2 h-2 rounded-full bg-mercedes-amgRed -ml-3"></span>
+        <span class="text-xs uppercase tracking-widest text-slate-100 dark:text-slate-300 font-semibold font-mono">
+          The New Generation • W206 AMG Line
+        </span>
+      </div>
+
+      <!-- Main Headline: Đánh gục cảm xúc, định vị thủ lĩnh -->
+      <h1 class="text-4xl sm:text-6xl lg:text-7xl font-heading font-black tracking-tight text-white uppercase max-w-5xl leading-tight sm:leading-none mb-6 drop-shadow-md">
+        BẢN LĨNH DẪN ĐẦU.<br/>
+        <span class="text-gradient-gold">BIỂU TƯỢNG UY QUYỀN THỂ THAO.</span>
+      </h1>
+
+      <!-- Sub-headline: Tóm tắt 3 giá trị cốt lõi -->
+      <p class="text-base sm:text-xl text-slate-200 dark:text-mercedes-silverMuted max-w-3xl font-normal leading-relaxed mb-10 drop-shadow">
+        Khẳng định vị thế người tiên phong cùng <strong class="text-white">Mercedes-Benz C300 AMG</strong>: Ngôn ngữ thiết kế thể thao thuần khiết AMG, cỗ máy Mild-Hybrid <span class="text-mercedes-gold font-bold">258 HP bứt tốc 6.0 giây</span> và khoang lái kỹ thuật số MBUX tương lai chạm đến từng xúc cảm.
+      </p>
+
+      <!-- CTAs & Trust Bullets -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto mb-12">
+        <a href="#offer-section" class="w-full sm:w-auto px-8 py-4 rounded-full font-heading font-bold text-sm tracking-widest uppercase bg-gradient-to-r from-mercedes-gold to-mercedes-goldHover text-mercedes-black hover:brightness-110 shadow-2xl glow-gold transition transform hover:-translate-y-1 flex items-center justify-center space-x-2">
+          <span>Nhận Báo Giá Lăn Bánh VIP</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <button onclick="openModal()" class="w-full sm:w-auto px-8 py-4 rounded-full font-heading font-bold text-sm tracking-widest uppercase bg-white/15 hover:bg-white/25 text-white border border-white/25 backdrop-blur-md transition transform hover:-translate-y-1 flex items-center justify-center space-x-2 shadow-lg">
+          <i class="fa-solid fa-gauge-high text-mercedes-cyan mr-1"></i>
+          <span>Đăng Ký Lái Thử Tại Nhà</span>
+        </button>
+      </div>
+
+      <!-- 4 Key Metric Badges (Hero Quick Proof) -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 w-full max-w-4xl pt-8 border-t border-white/15">
+        <div class="flex flex-col items-center">
+          <span class="text-2xl sm:text-3xl font-heading font-extrabold text-white">258 + 20 <span class="text-xs text-mercedes-gold font-normal">HP</span></span>
+          <span class="text-xs text-slate-300 dark:text-slate-400 mt-1 uppercase tracking-wider">Động cơ EQ Boost</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="text-2xl sm:text-3xl font-heading font-extrabold text-white">6.0 <span class="text-xs text-mercedes-gold font-normal">Giây</span></span>
+          <span class="text-xs text-slate-300 dark:text-slate-400 mt-1 uppercase tracking-wider">Tăng tốc 0 - 100 km/h</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="text-2xl sm:text-3xl font-heading font-extrabold text-white">11.9 <span class="text-xs text-mercedes-gold font-normal">Inch</span></span>
+          <span class="text-xs text-slate-300 dark:text-slate-400 mt-1 uppercase tracking-wider">Màn hình dọc MBUX</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="text-2xl sm:text-3xl font-heading font-extrabold text-white">2.6 <span class="text-xs text-mercedes-gold font-normal">Triệu</span></span>
+          <span class="text-xs text-slate-300 dark:text-slate-400 mt-1 uppercase tracking-wider">Điểm ảnh Digital Light</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Scroll Down Indicator -->
+    <a href="#social-proof" aria-label="Cuộn xuống xem bằng chứng uy tín" class="absolute bottom-4 left-1/2 -translate-x-1/2 text-slate-300 dark:text-mercedes-silverMuted hover:text-white transition animate-bounce text-sm flex flex-col items-center">
+      <span class="text-[10px] uppercase tracking-widest mb-1 text-slate-400 dark:text-slate-500 font-semibold">Khám Phá</span>
+      <i class="fa-solid fa-chevron-down text-mercedes-gold"></i>
+    </a>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- KHỐI 2: SOCIAL PROOF (XÂY DỰNG NIỀM TIN - TRUST) -->
+  <!-- ========================================== -->
+  <section id="social-proof" class="py-20 bg-slate-100 dark:bg-mercedes-dark relative border-t border-slate-200 dark:border-white/5 transition-colors duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Title -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h3 class="text-xs font-mono uppercase tracking-[0.25em] text-mercedes-gold font-bold mb-2">Thước Đo Của Sự Thành Đạt</h3>
+        <h2 class="text-3xl sm:text-4xl font-heading font-extrabold text-slate-900 dark:text-white uppercase">
+          LỰA CHỌN KHẲNG ĐỊNH ĐẲNG CẤP CỦA HƠN 2.500+ THỦ LĨNH
+        </h2>
+        <div class="w-20 h-1 bg-mercedes-gold mx-auto mt-4 rounded-full"></div>
+      </div>
+
+      <!-- Impressive Stat Counters -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+        <div class="glass-card p-8 rounded-2xl text-center border-t-4 border-t-mercedes-gold">
+          <div class="w-14 h-14 rounded-full bg-mercedes-gold/15 text-mercedes-gold text-2xl flex items-center justify-center mx-auto mb-4">
+            <i class="fa-solid fa-trophy"></i>
+          </div>
+          <div class="text-4xl font-heading font-black text-slate-900 dark:text-white mb-2">#1 Sedan Hạng Sang</div>
+          <p class="text-sm text-slate-600 dark:text-mercedes-silverMuted">Đoạt giải thưởng "Xe Sang Cỡ Nhỏ Của Năm" do Hội đồng Chuyên gia Báo chí Ô tô bình chọn liên tiếp 3 năm.</p>
+        </div>
+
+        <div class="glass-card p-8 rounded-2xl text-center border-t-4 border-t-mercedes-cyan">
+          <div class="w-14 h-14 rounded-full bg-mercedes-cyan/15 text-mercedes-cyan text-2xl flex items-center justify-center mx-auto mb-4">
+            <i class="fa-solid fa-handshake-angle"></i>
+          </div>
+          <div class="text-4xl font-heading font-black text-slate-900 dark:text-white mb-2">2.500+ Xe Đã Giao</div>
+          <p class="text-sm text-slate-600 dark:text-mercedes-silverMuted">Sự lựa chọn ưu tiên hàng đầu của giới CEO, Founders, chuyên gia tài chính và người dẫn đầu phong cách sống.</p>
+        </div>
+
+        <div class="glass-card p-8 rounded-2xl text-center border-t-4 border-t-mercedes-amgRed">
+          <div class="w-14 h-14 rounded-full bg-mercedes-amgRed/15 text-mercedes-amgRed text-2xl flex items-center justify-center mx-auto mb-4">
+            <i class="fa-solid fa-shield-heart"></i>
+          </div>
+          <div class="text-4xl font-heading font-black text-slate-900 dark:text-white mb-2">98.6% Hài Lòng</div>
+          <p class="text-sm text-slate-600 dark:text-mercedes-silverMuted">Chỉ số đánh giá độ phấn khích sau tay lái và dịch vụ hậu mãi 5 sao chuẩn Mercedes-Benz toàn cầu.</p>
+        </div>
+      </div>
+
+      <!-- Press Reviews Banner -->
+      <div class="p-6 rounded-2xl bg-white dark:bg-white/5 border border-slate-200 dark:border-white/10 mb-16 flex flex-wrap items-center justify-around gap-6 text-slate-600 dark:text-slate-400 shadow-sm dark:shadow-none">
+        <div class="flex items-center space-x-3">
+          <i class="fa-solid fa-newspaper text-mercedes-gold text-xl"></i>
+          <span class="text-sm font-semibold tracking-wide text-slate-900 dark:text-white">VnExpress Xe:</span>
+          <span class="text-xs italic text-slate-600 dark:text-slate-300">"C300 AMG là chiếc 'tiểu S-Class' hoàn hảo nhất từ trước đến nay."</span>
+        </div>
+        <div class="flex items-center space-x-3">
+          <i class="fa-solid fa-play-circle text-mercedes-amgRed text-xl"></i>
+          <span class="text-sm font-semibold tracking-wide text-slate-900 dark:text-white">Autodaily Review:</span>
+          <span class="text-xs italic text-slate-600 dark:text-slate-300">"Khả năng dính lưng ghế và cách âm vượt xa mọi đối thủ cùng phân khúc."</span>
+        </div>
+        <div class="flex items-center space-x-3">
+          <i class="fa-solid fa-award text-mercedes-cyan text-xl"></i>
+          <span class="text-sm font-semibold tracking-wide text-slate-900 dark:text-white">TopCar Vietnam:</span>
+          <span class="text-xs italic text-slate-600 dark:text-slate-300">"Sự cân bằng tuyệt mỹ giữa DNA tốc độ AMG và tính thực dụng sang trọng."</span>
+        </div>
+      </div>
+
+      <!-- Client Testimonials (3 Personas) -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        
+        <!-- Quote 1: Doanh nhân Trẻ Fintech -->
+        <div class="glass-card glass-card-hover p-8 rounded-2xl flex flex-col justify-between relative">
+          <div class="absolute -top-3 right-6 text-4xl text-mercedes-gold/30 font-serif">“</div>
+          <div>
+            <div class="flex items-center space-x-1 text-mercedes-gold text-xs mb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-slate-700 dark:text-slate-300 text-sm leading-relaxed mb-6 italic">
+              "Trong kinh doanh, phương tiện bạn lái đến điểm hẹn chính là lời chào không lời về vị thế của bạn. C300 AMG cho tôi sự tự tin tuyệt đối khi gặp gỡ đối tác lớn, đồng thời mang lại sự phấn khích tột độ mỗi khi tự mình cầm lái giải tỏa áp lực sau giờ làm việc."
+            </p>
+          </div>
+          <div class="flex items-center space-x-4 pt-4 border-t border-slate-200 dark:border-white/10">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Anh Trần Hoàng Long" class="w-12 h-12 rounded-full object-cover border-2 border-mercedes-gold" />
+            <div>
+              <h4 class="text-slate-900 dark:text-white font-bold text-sm">Anh Trần Hoàng Long</h4>
+              <p class="text-xs text-mercedes-gold font-bold">Founder &amp; CEO Công nghệ Tài chính (TP.HCM)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quote 2: Nữ Giám đốc Điều hành Cấp Cao -->
+        <div class="glass-card glass-card-hover p-8 rounded-2xl flex flex-col justify-between relative">
+          <div class="absolute -top-3 right-6 text-4xl text-mercedes-gold/30 font-serif">“</div>
+          <div>
+            <div class="flex items-center space-x-1 text-mercedes-gold text-xs mb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-slate-700 dark:text-slate-300 text-sm leading-relaxed mb-6 italic">
+              "Từng đắn đo giữa C300 và các mẫu xe khác, nhưng khoang lái MBUX với dàn âm thanh vòm Burmester 3D đã 'chốt hạ' tôi ngay trong 15 phút lái thử đầu tiên. Không gian yên tĩnh như phòng hòa nhạc di động, ánh sáng nội thất 64 màu thực sự truyền cảm hứng mỗi tối về nhà."
+            </p>
+          </div>
+          <div class="flex items-center space-x-4 pt-4 border-t border-slate-200 dark:border-white/10">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80" alt="Chị Nguyễn Lê Phương Thảo" class="w-12 h-12 rounded-full object-cover border-2 border-mercedes-cyan" />
+            <div>
+              <h4 class="text-slate-900 dark:text-white font-bold text-sm">Chị Nguyễn Lê Phương Thảo</h4>
+              <p class="text-xs text-mercedes-cyan font-bold">Managing Director, Tập đoàn Truyền thông (Hà Nội)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quote 3: Kiến Trúc Sư Trưởng / KOL Thiết Kế -->
+        <div class="glass-card glass-card-hover p-8 rounded-2xl flex flex-col justify-between relative">
+          <div class="absolute -top-3 right-6 text-4xl text-mercedes-gold/30 font-serif">“</div>
+          <div>
+            <div class="flex items-center space-x-1 text-mercedes-gold text-xs mb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-slate-700 dark:text-slate-300 text-sm leading-relaxed mb-6 italic">
+              "Là người làm trong ngành sáng tạo kiến trúc, tôi bị mê hoặc bởi tỷ lệ vàng trong đường nét ngoại thất AMG và cụm đèn Digital Light sắc sảo. C300 không chỉ là cỗ máy tốc độ, đó là một tác phẩm điêu khắc đương đại của người Đức."
+            </p>
+          </div>
+          <div class="flex items-center space-x-4 pt-4 border-t border-slate-200 dark:border-white/10">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80" alt="KTS. Lê Tuấn Khang" class="w-12 h-12 rounded-full object-cover border-2 border-mercedes-amgRed" />
+            <div>
+              <h4 class="text-slate-900 dark:text-white font-bold text-sm">KTS. Lê Tuấn Khang</h4>
+              <p class="text-xs text-mercedes-amgRed font-bold">Design Director &amp; Nhà Sáng Lập Studio Kiến Trúc</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- KHỐI 3: FEATURES & BENEFITS (4 GIÁ TRỊ CỐT LÕI - USPs) -->
+  <!-- Công thức: "Tính năng kỹ thuật -> Lợi ích cảm xúc tột đỉnh" -->
+  <!-- ========================================== -->
+  <section id="features" class="py-24 bg-white dark:bg-mercedes-black relative transition-colors duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-20">
+        <span class="text-xs font-mono uppercase tracking-[0.25em] text-mercedes-amgRed font-bold">DNA Ngôi Sao Ba Cánh</span>
+        <h2 class="text-3xl sm:text-5xl font-heading font-black text-slate-900 dark:text-white uppercase mt-2">
+          4 ĐẶC QUYỀN ĐÁNH THỨC MỌI GIÁC QUAN
+        </h2>
+        <p class="text-slate-600 dark:text-mercedes-silverMuted mt-4 text-sm sm:text-base">
+          Mỗi chi tiết trên Mercedes-Benz C300 AMG sinh ra không chỉ để vận hành, mà để tôn vinh khí chất uy quyền của chủ nhân trên từng cung đường.
+        </p>
+      </div>
+
+      <!-- FEATURE 1: THIẾT KẾ AMG LINE -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-24">
+        <div class="relative group rounded-3xl overflow-hidden border border-slate-200 dark:border-white/10 shadow-xl">
+          <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85" 
+               alt="Ngoại thất thể thao Mercedes C300 AMG Line" 
+               class="w-full h-[420px] object-cover group-hover:scale-105 transition duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+          <span class="absolute bottom-6 left-6 px-3 py-1 rounded bg-mercedes-amgRed text-white text-xs font-bold uppercase tracking-wider shadow-md">
+            AMG Exterior Package
+          </span>
+        </div>
+        <div class="space-y-6">
+          <div class="inline-flex items-center space-x-2 text-mercedes-gold font-mono text-xs uppercase tracking-widest font-bold">
+            <i class="fa-solid fa-flag-checkered"></i>
+            <span>Thiết Kế Ngoại Thất Thể Thao Thuần Khiết</span>
+          </div>
+          <h3 class="text-2xl sm:text-4xl font-heading font-bold text-slate-900 dark:text-white uppercase leading-snug">
+            Vẻ Đẹp Độc Bản Khiến Vạn Ánh Nhìn Dõi Theo
+          </h3>
+          <div class="space-y-4 text-slate-600 dark:text-mercedes-silverMuted text-sm sm:text-base leading-relaxed">
+            <p>
+              <strong class="text-slate-900 dark:text-white">Tính năng kỹ thuật:</strong> Gói thể thao AMG Line trứ danh với lưới tản nhiệt họa tiết kim cương sao rơi (Star Pattern), cản trước khí động học với các hốc gió cỡ lớn, mâm hợp kim thể thao AMG 18 inch 5 chấu kép và cụm ống xả kép mạ chrome sáng bóng.
+            </p>
+            <div class="p-4 rounded-xl bg-amber-500/10 border-l-4 border-l-mercedes-gold text-slate-800 dark:text-slate-200">
+              <strong class="text-mercedes-gold block font-semibold mb-1">Cảm Xúc Chủ Nhân Nhận Được:</strong>
+              "Không cần lên tiếng, diện mạo của C300 AMG đã khẳng định bạn là ai. Mỗi lần dừng đèn đỏ hay xuất hiện tại sảnh khách sạn 5 sao, sự chú ý và tôn trọng mặc nhiên thuộc về bạn."
+            </div>
+          </div>
+          <ul class="grid grid-cols-2 gap-3 text-xs sm:text-sm text-slate-700 dark:text-slate-300 font-medium">
+            <li class="flex items-center space-x-2">
+              <i class="fa-solid fa-check text-mercedes-gold"></i>
+              <span>Lưới tản nhiệt Star Pattern</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <i class="fa-solid fa-check text-mercedes-gold"></i>
+              <span>Mâm AMG 18" thể thao</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <i class="fa-solid fa-check text-mercedes-gold"></i>
+              <span>Cản sau AMG thể thao</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <i class="fa-solid fa-check text-mercedes-gold"></i>
+              <span>Gương chiếu hậu chống chói</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- FEATURE 2: NỘI THẤT & MBUX MÀN HÌNH DỌC 11.9 INCH -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-24 lg:flex-row-reverse">
+        <div class="space-y-6 lg:order-1 order-2">
+          <div class="inline-flex items-center space-x-2 text-mercedes-cyan font-mono text-xs uppercase tracking-widest font-bold">
+            <i class="fa-solid fa-microchip"></i>
+            <span>Khoang Lái Số Hóa &amp; Trí Tuệ Nhân Tạo MBUX</span>
+          </div>
+          <h3 class="text-2xl sm:text-4xl font-heading font-bold text-slate-900 dark:text-white uppercase leading-snug">
+            Không Gian Tương Lai - Điều Khiển Thế Giới Trong Tầm Tay
+          </h3>
+          <div class="space-y-4 text-slate-600 dark:text-mercedes-silverMuted text-sm sm:text-base leading-relaxed">
+            <p>
+              <strong class="text-slate-900 dark:text-white">Tính năng kỹ thuật:</strong> Màn hình cảm ứng trung tâm MBUX đặt dọc 11.9 inch nghiêng 6 độ hướng về người lái, bảng đồng hồ kỹ thuật số 12.3 inch siêu nét, điều khiển giọng nói AI "Hey Mercedes", kết nối không dây Apple CarPlay/Android Auto và hệ thống âm thanh vòm Burmester® 3D 15 loa công suất 710W.
+            </p>
+            <div class="p-4 rounded-xl bg-sky-500/10 border-l-4 border-l-mercedes-cyan text-slate-800 dark:text-slate-200">
+              <strong class="text-mercedes-cyan block font-semibold mb-1">Cảm Xúc Chủ Nhân Nhận Được:</strong>
+              "Bước vào C300 AMG như bước vào khoang phi thuyền không gian. Nơi mọi căng thẳng tan biến khi giọng nói của bạn ra lệnh, và cả một nhà hát thính phòng vỗ về mọi giác quan trong ánh đèn viền nội thất 64 màu huyền ảo."
+            </div>
+          </div>
+          <ul class="grid grid-cols-2 gap-3 text-xs sm:text-sm text-slate-700 dark:text-slate-300 font-medium">
+            <li class="flex items-center space-x-2">
+              <i class="fa-solid fa-check text-mercedes-cyan"></i>
+              <span>Màn hình dọc 11.9 inch MBUX</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <i class="fa-solid fa-check text-mercedes-cyan"></i>
+              <span>Âm thanh Burmester 3D 15 loa</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <i class="fa-solid fa-check text-mercedes-cyan"></i>
+              <span>Trợ lý ảo "Hey Mercedes"</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <i class="fa-solid fa-check text-mercedes-cyan"></i>
+              <span>Đèn viền chủ động 64 màu</span>
+            </li>
+          </ul>
+        </div>
+        <div class="relative group rounded-3xl overflow-hidden border border-slate-200 dark:border-white/10 shadow-xl lg:order-2 order-1">
+          <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1200&q=85" 
+               alt="Khoang lái nội thất MBUX Mercedes C300 AMG" 
+               class="w-full h-[420px] object-cover group-hover:scale-105 transition duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+          <span class="absolute bottom-6 left-6 px-3 py-1 rounded bg-mercedes-cyan/90 text-mercedes-black text-xs font-bold uppercase tracking-wider shadow-md">
+            MBUX Cockpit 11.9" &amp; Burmester® 3D
+          </span>
+        </div>
+      </div>
+
+      <!-- FEATURE 3: ĐỘNG CƠ MILD-HYBRID 2.0L TURBO + EQ BOOST -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-24">
+        <div class="relative group rounded-3xl overflow-hidden border border-slate-200 dark:border-white/10 shadow-xl">
+          <img src="https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=85" 
+               alt="Động cơ Mercedes C300 Mild-Hybrid EQ Boost" 
+               class="w-full h-[420px] object-cover group-hover:scale-105 transition duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+          <span class="absolute bottom-6 left-6 px-3 py-1 rounded bg-mercedes-amgRed text-white text-xs font-bold uppercase tracking-wider shadow-md">
+            258 HP • 400 Nm • 0-100km/h 6.0s
+          </span>
+        </div>
+        <div class="space-y-6">
+          <div class="inline-flex items-center space-x-2 text-mercedes-amgRed font-mono text-xs uppercase tracking-widest font-bold">
+            <i class="fa-solid fa-bolt"></i>
+            <span>Sức Mạnh Bùng Nổ Dưới Nắp Ca-pô</span>
+          </div>
+          <h3 class="text-2xl sm:text-4xl font-heading font-bold text-slate-900 dark:text-white uppercase leading-snug">
+            Tăng Tốc Dũng Mãnh - Cảm Xúc Thăng Hoa Phấn Khích Tột Cùng
+          </h3>
+          <div class="space-y-4 text-slate-600 dark:text-mercedes-silverMuted text-sm sm:text-base leading-relaxed">
+            <p>
+              <strong class="text-slate-900 dark:text-white">Tính năng kỹ thuật:</strong> Trái tim là khối động cơ xăng 2.0L Turbo tăng áp kết hợp bộ khởi động - máy phát điện tích hợp (ISG) EQ Boost thế hệ 2, sản sinh 258 mã lực + thêm 20 mã lực tức thời, mô-men xoắn cực đại 400 Nm, hộp số tự động 9 cấp 9G-TRONIC và hệ dẫn động cầu sau linh hoạt.
+            </p>
+            <div class="p-4 rounded-xl bg-red-500/10 border-l-4 border-l-mercedes-amgRed text-slate-800 dark:text-slate-200">
+              <strong class="text-mercedes-amgRed block font-semibold mb-1">Cảm Xúc Chủ Nhân Nhận Được:</strong>
+              "Cú đạp ga dính lưng ghế không độ trễ, âm thanh gầm gừ kích thích adrenaline tuôn trào nhưng vẫn cực kỳ êm ái khi lướt phố. Bạn làm chủ hoàn toàn mọi cung đường cao tốc trong chớp mắt."
+            </div>
+          </div>
+          <ul class="grid grid-cols-2 gap-3 text-xs sm:text-sm text-slate-700 dark:text-slate-300 font-medium">
+            <li class="flex items-center space-x-2">
+              <i class="fa-solid fa-check text-mercedes-amgRed"></i>
+              <span>Hộp số 9 cấp 9G-TRONIC</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <i class="fa-solid fa-check text-mercedes-amgRed"></i>
+              <span>EQ Boost 48V triệt tiêu trễ turbo</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <i class="fa-solid fa-check text-mercedes-amgRed"></i>
+              <span>5 chế độ lái Dynamic Select</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <i class="fa-solid fa-check text-mercedes-amgRed"></i>
+              <span>Treo thích ứng thể thao</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- FEATURE 4: HỆ THỐNG AN TOÀN DIGITAL LIGHT & DRIVING ASSISTANCE -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center lg:flex-row-reverse">
+        <div class="space-y-6 lg:order-1 order-2">
+          <div class="inline-flex items-center space-x-2 text-mercedes-gold font-mono text-xs uppercase tracking-widest font-bold">
+            <i class="fa-solid fa-shield-halved"></i>
+            <span>Công Nghệ Chiếu Sáng &amp; An Toàn Hàng Đầu Thế Giới</span>
+          </div>
+          <h3 class="text-2xl sm:text-4xl font-heading font-bold text-slate-900 dark:text-white uppercase leading-snug">
+            Lá Chắn Vững Chắc Cho Bạn Và Những Người Yêu Thương
+          </h3>
+          <div class="space-y-4 text-slate-600 dark:text-mercedes-silverMuted text-sm sm:text-base leading-relaxed">
+            <p>
+              <strong class="text-slate-900 dark:text-white">Tính năng kỹ thuật:</strong> Công nghệ đèn DIGITAL LIGHT với 2.6 triệu điểm ảnh vi gương siêu phân giải, tự động che chắn luồng sáng bảo vệ xe ngược chiều, hệ thống phanh chủ động Active Brake Assist, cảnh báo điểm mù chủ động, hỗ trợ giữ làn đường và camera 360 độ sắc nét với góc nhìn giả lập 3D.
+            </p>
+            <div class="p-4 rounded-xl bg-amber-500/10 border-l-4 border-l-mercedes-gold text-slate-800 dark:text-slate-200">
+              <strong class="text-mercedes-gold block font-semibold mb-1">Cảm Xúc Chủ Nhân Nhận Được:</strong>
+              "Sự an tâm tuyệt đối sau tay lái trong mọi điều kiện thời tiết hay đêm tối. Bạn hoàn toàn thư thái tận hưởng hành trình cùng gia đình vì chiếc xe luôn là người vệ sĩ thông minh quan sát và bảo vệ 360 độ."
+            </div>
+          </div>
+          <ul class="grid grid-cols-2 gap-3 text-xs sm:text-sm text-slate-700 dark:text-slate-300 font-medium">
+            <li class="flex items-center space-x-2">
+              <i class="fa-solid fa-check text-mercedes-gold"></i>
+              <span>Digital Light 2.6 triệu pixels</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <i class="fa-solid fa-check text-mercedes-gold"></i>
+              <span>Phanh khẩn cấp Active Brake</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <i class="fa-solid fa-check text-mercedes-gold"></i>
+              <span>Camera 360 độ 3D toàn cảnh</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <i class="fa-solid fa-check text-mercedes-gold"></i>
+              <span>Hỗ trợ đỗ xe Parktronic</span>
+            </li>
+          </ul>
+        </div>
+        <div class="relative group rounded-3xl overflow-hidden border border-slate-200 dark:border-white/10 shadow-xl lg:order-2 order-1">
+          <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1200&q=85" 
+               alt="Công nghệ đèn pha Digital Light Mercedes C300" 
+               class="w-full h-[420px] object-cover group-hover:scale-105 transition duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+          <span class="absolute bottom-6 left-6 px-3 py-1 rounded bg-white/20 backdrop-blur-md text-white text-xs font-bold uppercase tracking-wider shadow-md">
+            Digital Light &amp; Active Safety
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- KHỐI 4: OFFER & PRICE (TẠO ĐỘNG LỰC MUA NGAY - ACTION) -->
+  <!-- ========================================== -->
+  <section id="offer-section" class="py-24 bg-gradient-to-b from-slate-100 via-slate-50 to-white dark:bg-gradient-to-b dark:from-mercedes-dark dark:via-mercedes-card dark:to-mercedes-black relative border-t border-slate-200 dark:border-white/10 transition-colors duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="px-3 py-1 rounded-full bg-mercedes-amgRed/15 text-mercedes-amgRed text-xs font-bold uppercase tracking-widest border border-mercedes-amgRed/30 shadow-sm">
+          Chính Sách Đặc Quyền Có Hạn
+        </span>
+        <h2 class="text-3xl sm:text-5xl font-heading font-black text-slate-900 dark:text-white uppercase mt-4">
+          BẢNG GIÁ NIÊM YẾT &amp; DỰ TOÁN LĂN BÁNH
+        </h2>
+        <p class="text-slate-600 dark:text-mercedes-silverMuted mt-3 text-sm sm:text-base">
+          Sở hữu Mercedes-Benz C300 AMG dễ dàng hơn bao giờ hết với giải pháp tài chính độc quyền chỉ dành cho khách hàng đăng ký online trong tháng này.
+        </p>
+      </div>
+
+      <!-- PRICE CARD & CALCULATOR -->
+      <div id="pricing" class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-16">
+        
+        <!-- Left: Official Price & Package Info (5 Cols) -->
+        <div class="lg:col-span-5 glass-card p-8 rounded-3xl border-2 border-mercedes-gold flex flex-col justify-between relative overflow-hidden shadow-2xl">
+          <div class="absolute -right-12 -top-12 w-40 h-40 bg-mercedes-gold/15 rounded-full blur-3xl pointer-events-none"></div>
+          <div>
+            <div class="flex justify-between items-center mb-4">
+              <span class="text-xs font-mono uppercase tracking-widest text-mercedes-gold font-bold">Giá Bán Niêm Yết Chính Hãng</span>
+              <span class="text-[11px] bg-mercedes-amgRed text-white px-2.5 py-0.5 rounded-full font-bold uppercase tracking-wider shadow">Giao Xe Ngay</span>
+            </div>
+            
+            <div class="text-4xl sm:text-5xl font-heading font-black text-slate-900 dark:text-white mb-2">
+              2.099.000.000 <span class="text-lg text-mercedes-gold font-bold">VNĐ</span>
+            </div>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mb-6 italic">*Đã bao gồm VAT 10%. Chưa bao gồm lệ phí đăng ký lăn bánh theo tỉnh/thành.</p>
+
+            <!-- Exclusive Month Offer Box -->
+            <div class="p-5 rounded-2xl bg-amber-500/10 dark:bg-gradient-to-br dark:from-mercedes-gold/15 dark:via-white/5 dark:to-transparent border border-mercedes-gold/40 mb-6 shadow-sm">
+              <div class="flex items-center space-x-2 text-mercedes-gold font-bold text-sm uppercase mb-3">
+                <i class="fa-solid fa-gift"></i>
+                <span>Gói Quà Tặng VIP Khi Đăng Ký Hôm Nay:</span>
+              </div>
+              <ul class="space-y-2.5 text-xs sm:text-sm text-slate-700 dark:text-slate-200">
+                <li class="flex items-start space-x-2">
+                  <i class="fa-solid fa-circle-check text-mercedes-gold text-xs mt-1"></i>
+                  <span>Hỗ trợ <strong class="text-slate-900 dark:text-white">50% - 100% Lệ phí trước bạ</strong> (Tùy chính sách áp dụng).</span>
+                </li>
+                <li class="flex items-start space-x-2">
+                  <i class="fa-solid fa-circle-check text-mercedes-gold text-xs mt-1"></i>
+                  <span>Tặng <strong class="text-slate-900 dark:text-white">02 Năm Gói Bảo Dưỡng</strong> định kỳ miễn phí chính hãng.</span>
+                </li>
+                <li class="flex items-start space-x-2">
+                  <i class="fa-solid fa-circle-check text-mercedes-gold text-xs mt-1"></i>
+                  <span>Tặng <strong class="text-slate-900 dark:text-white">Gói Phim Cách Nhiệt 3M Crystalline</strong> &amp; Phủ Ceramic sơn bóng.</span>
+                </li>
+                <li class="flex items-start space-x-2">
+                  <i class="fa-solid fa-circle-check text-mercedes-gold text-xs mt-1"></i>
+                  <span>Ưu đãi gói tài chính: Hỗ trợ vay 80%, lãi suất ưu đãi cố định từ <strong class="text-mercedes-cyan font-bold">7.5%/năm</strong>.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Urgency Countdown Card -->
+          <div class="pt-4 border-t border-slate-200 dark:border-white/10 text-center">
+            <div class="text-xs text-slate-600 dark:text-slate-400 uppercase tracking-widest mb-2 flex items-center justify-center space-x-2 font-semibold">
+              <i class="fa-solid fa-fire text-mercedes-amgRed animate-pulse"></i>
+              <span>Suất Ưu Đãi Tháng Chỉ Còn Áp Dụng Cho:</span>
+            </div>
+            <div class="inline-flex items-center space-x-2 bg-mercedes-amgRed/15 dark:bg-mercedes-amgRed/20 border border-mercedes-amgRed/40 px-4 py-1.5 rounded-full">
+              <span class="text-mercedes-amgRed font-extrabold text-sm tracking-wide">CÒN LẠI 04 SUẤT DUY NHẤT</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Interactive Roll-out Estimator & Loan Calculator (7 Cols) -->
+        <div class="lg:col-span-7 glass-card p-8 rounded-3xl border border-slate-200 dark:border-white/10 shadow-xl">
+          <div class="flex items-center justify-between mb-6 border-b border-slate-200 dark:border-white/10 pb-4">
+            <h3 class="text-lg font-heading font-bold text-slate-900 dark:text-white uppercase flex items-center space-x-2">
+              <i class="fa-solid fa-calculator text-mercedes-gold"></i>
+              <span>Dự Toán Lăn Bánh Nhanh</span>
+            </h3>
+            <span class="text-xs text-slate-500 dark:text-slate-400">Ước tính theo biểu phí 2026</span>
+          </div>
+
+          <!-- City Selector Buttons -->
+          <div class="mb-6">
+            <label class="block text-xs uppercase tracking-wider text-slate-700 dark:text-slate-300 font-bold mb-2">Chọn Khu Vực Đăng Ký:</label>
+            <div class="grid grid-cols-3 gap-3">
+              <button type="button" onclick="setCity('hanoi')" id="btn-hanoi" class="city-btn py-2.5 px-3 rounded-xl text-xs font-bold border border-slate-300 dark:border-white/20 bg-slate-100 dark:bg-white/5 hover:border-mercedes-gold transition text-slate-800 dark:text-white">
+                Hà Nội (12%)
+              </button>
+              <button type="button" onclick="setCity('hcm')" id="btn-hcm" class="city-btn py-2.5 px-3 rounded-xl text-xs font-bold border border-mercedes-gold bg-mercedes-gold/20 text-mercedes-gold transition">
+                TP. Hồ Chí Minh (10%)
+              </button>
+              <button type="button" onclick="setCity('tinh')" id="btn-tinh" class="city-btn py-2.5 px-3 rounded-xl text-xs font-bold border border-slate-300 dark:border-white/20 bg-slate-100 dark:bg-white/5 hover:border-mercedes-gold transition text-slate-800 dark:text-white">
+                Tỉnh / Thành Khác (10%)
+              </button>
+            </div>
+          </div>
+
+          <!-- Fee Breakdown Table -->
+          <div class="space-y-3 text-xs sm:text-sm border-b border-slate-200 dark:border-white/10 pb-6 mb-6">
+            <div class="flex justify-between text-slate-600 dark:text-slate-300">
+              <span>Giá niêm yết xe:</span>
+              <span class="font-mono font-bold text-slate-900 dark:text-white">2.099.000.000 VNĐ</span>
+            </div>
+            <div class="flex justify-between text-slate-600 dark:text-slate-300">
+              <span id="tax-label">Lệ phí trước bạ (10%):</span>
+              <span id="tax-val" class="font-mono font-bold text-slate-900 dark:text-white">209.900.000 VNĐ</span>
+            </div>
+            <div class="flex justify-between text-slate-600 dark:text-slate-300">
+              <span>Phí cấp biển số:</span>
+              <span id="plate-val" class="font-mono font-bold text-slate-900 dark:text-white">20.000.000 VNĐ</span>
+            </div>
+            <div class="flex justify-between text-slate-600 dark:text-slate-300">
+              <span>Phí đăng kiểm &amp; Phí bảo trì đường bộ (1 năm):</span>
+              <span class="font-mono font-bold text-slate-900 dark:text-white">1.900.000 VNĐ</span>
+            </div>
+            <div class="flex justify-between text-slate-600 dark:text-slate-300">
+              <span>Bảo hiểm trách nhiệm dân sự bắt buộc:</span>
+              <span class="font-mono font-bold text-slate-900 dark:text-white">480.000 VNĐ</span>
+            </div>
+          </div>
+
+          <!-- Total Calculation Result -->
+          <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center p-4 rounded-xl bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 mb-6">
+            <div>
+              <span class="text-xs uppercase tracking-wider text-slate-500 dark:text-slate-400 block font-semibold">Tổng Chi Phí Lăn Bánh Dự Kiến:</span>
+              <span id="total-price" class="text-2xl sm:text-3xl font-heading font-black text-mercedes-gold">
+                2.331.280.000 VNĐ
+              </span>
+            </div>
+            <div class="mt-2 sm:mt-0 text-right">
+              <span class="text-xs text-slate-500 dark:text-slate-400 block font-semibold">Trả trước chỉ từ (20%):</span>
+              <span id="downpayment-val" class="text-sm font-mono font-bold text-mercedes-cyan">
+                ~ 466.000.000 VNĐ
+              </span>
+            </div>
+          </div>
+
+          <!-- Lead Capture Form -->
+          <form id="lead-form" onsubmit="handleLeadSubmit(event)" class="space-y-4">
+            <h4 class="text-xs font-mono uppercase tracking-widest text-mercedes-gold font-bold">
+              Nhận Bảng Tính Chi Tiết Từng Tháng &amp; Ưu Đãi Bí Mật:
+            </h4>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <input type="text" id="lead-name" required placeholder="Họ và tên của Quý Khách *" class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-mercedes-black border border-slate-300 dark:border-white/15 text-slate-900 dark:text-white text-xs placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:border-mercedes-gold transition" />
+              <input type="tel" id="lead-phone" required pattern="[0-9]{10,11}" placeholder="Số điện thoại cá nhân *" class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-mercedes-black border border-slate-300 dark:border-white/15 text-slate-900 dark:text-white text-xs placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:border-mercedes-gold transition" />
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <select id="lead-service" class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-mercedes-black border border-slate-300 dark:border-white/15 text-slate-900 dark:text-white text-xs focus:outline-none focus:border-mercedes-gold transition">
+                <option value="gia-lan-banh">Nhận Báo Giá Lăn Bánh Trọn Gói</option>
+                <option value="lai-thu-tan-nha">Đăng Ký Lái Thử Tận Nhà</option>
+                <option value="tra-gop-uu-dai">Tư Vấn Gói Vay Trả Góp 0%</option>
+                <option value="xem-xe-ngay">Yêu Cầu Xem Xe Sẵn Giao Ngay</option>
+              </select>
+              <select id="lead-location" class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-mercedes-black border border-slate-300 dark:border-white/15 text-slate-900 dark:text-white text-xs focus:outline-none focus:border-mercedes-gold transition">
+                <option value="hcm">Khu Vực: TP. Hồ Chí Minh &amp; Miền Nam</option>
+                <option value="hn">Khu Vực: Hà Nội &amp; Miền Bắc</option>
+                <option value="tinh">Khu Vực: Các Tỉnh Khác (Giao xe tận nơi)</option>
+              </select>
+            </div>
+            <button type="submit" class="w-full py-4 rounded-xl font-heading font-extrabold text-sm uppercase tracking-wider bg-gradient-to-r from-mercedes-gold to-mercedes-goldHover text-mercedes-black hover:brightness-110 shadow-lg glow-gold transition transform hover:-translate-y-0.5">
+              Gửi Yêu Cầu Nhận Báo Giá Ưu Đãi VIP
+            </button>
+            <p class="text-[11px] text-center text-slate-500 dark:text-slate-400">
+              <i class="fa-solid fa-lock text-[10px] mr-1"></i> Cam kết bảo mật 100% thông tin. Tư vấn viên cao cấp liên hệ trong vòng 5 phút.
+            </p>
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- BẢNG THÔNG SỐ KỸ THUẬT (SPECS ACCORDION) -->
+  <!-- ========================================== -->
+  <section id="specs" class="py-16 bg-slate-100 dark:bg-mercedes-dark border-t border-slate-200 dark:border-white/5 transition-colors duration-300">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <span class="text-xs font-mono uppercase tracking-widest text-slate-500 dark:text-slate-400 font-bold">Chi Tiết Kỹ Thuật Chuẩn Đức</span>
+        <h3 class="text-2xl sm:text-3xl font-heading font-bold text-slate-900 dark:text-white uppercase mt-1">Thông Số Kỹ Thuật Mercedes-Benz C300 AMG</h3>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs sm:text-sm">
+        <div class="glass-card p-6 rounded-2xl space-y-3">
+          <h4 class="text-mercedes-gold font-bold uppercase tracking-wider border-b border-slate-200 dark:border-white/10 pb-2 flex items-center">
+            <i class="fa-solid fa-car mr-2"></i> Kích Thước &amp; Trọng Lượng
+          </h4>
+          <div class="flex justify-between py-1 text-slate-600 dark:text-slate-300 border-b border-slate-200 dark:border-white/5">
+            <span>Dài x Rộng x Cao:</span>
+            <span class="font-semibold text-slate-900 dark:text-white">4.680 x 1.860 x 1.442 (mm)</span>
+          </div>
+          <div class="flex justify-between py-1 text-slate-600 dark:text-slate-300 border-b border-slate-200 dark:border-white/5">
+            <span>Chiều dài cơ sở:</span>
+            <span class="font-semibold text-slate-900 dark:text-white">2.865 (mm) - Siêu rộng rãi</span>
+          </div>
+          <div class="flex justify-between py-1 text-slate-600 dark:text-slate-300 border-b border-slate-200 dark:border-white/5">
+            <span>Tự trọng / Tải trọng:</span>
+            <span class="font-semibold text-slate-900 dark:text-white">1.675 / 590 (kg)</span>
+          </div>
+          <div class="flex justify-between py-1 text-slate-600 dark:text-slate-300">
+            <span>Dung tích khoang hành lý:</span>
+            <span class="font-semibold text-slate-900 dark:text-white">455 (Lít)</span>
+          </div>
+        </div>
+
+        <div class="glass-card p-6 rounded-2xl space-y-3">
+          <h4 class="text-mercedes-amgRed font-bold uppercase tracking-wider border-b border-slate-200 dark:border-white/10 pb-2 flex items-center">
+            <i class="fa-solid fa-gauge mr-2"></i> Động Cơ &amp; Truyền Động
+          </h4>
+          <div class="flex justify-between py-1 text-slate-600 dark:text-slate-300 border-b border-slate-200 dark:border-white/5">
+            <span>Kiểu động cơ:</span>
+            <span class="font-semibold text-slate-900 dark:text-white">I4 2.0L Turbo + EQ Boost 48V</span>
+          </div>
+          <div class="flex justify-between py-1 text-slate-600 dark:text-slate-300 border-b border-slate-200 dark:border-white/5">
+            <span>Công suất cực đại:</span>
+            <span class="font-semibold text-slate-900 dark:text-white">258 hp + 20 hp EQ Boost</span>
+          </div>
+          <div class="flex justify-between py-1 text-slate-600 dark:text-slate-300 border-b border-slate-200 dark:border-white/5">
+            <span>Mô-men xoắn cực đại:</span>
+            <span class="font-semibold text-slate-900 dark:text-white">400 Nm @ 2000 - 3200 rpm</span>
+          </div>
+          <div class="flex justify-between py-1 text-slate-600 dark:text-slate-300">
+            <span>Hộp số &amp; Dẫn động:</span>
+            <span class="font-semibold text-slate-900 dark:text-white">Tự động 9 cấp 9G-TRONIC / RWD</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- KHỐI 5: FOOTER & TRUST (CAM KẾT AN TOÀN - REASSURANCE) -->
+  <!-- ========================================== -->
+  <footer class="bg-slate-950 text-slate-400 pt-20 pb-12 border-t border-slate-800 dark:border-white/10 relative transition-colors duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- 4 Pillars of Trust / Value Props -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 pb-16 border-b border-slate-800 dark:border-white/10">
+        <div class="flex items-start space-x-4">
+          <div class="w-12 h-12 rounded-2xl bg-white/5 border border-mercedes-gold/40 text-mercedes-gold flex items-center justify-center text-xl flex-shrink-0">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <div>
+            <h4 class="text-white font-bold text-sm uppercase">Bảo Hành 3 Năm</h4>
+            <p class="text-xs text-slate-400 mt-1 leading-relaxed">Không giới hạn ki-lô-mét vận hành theo tiêu chuẩn toàn cầu của Mercedes-Benz AG.</p>
+          </div>
+        </div>
+
+        <div class="flex items-start space-x-4">
+          <div class="w-12 h-12 rounded-2xl bg-white/5 border border-mercedes-cyan/40 text-mercedes-cyan flex items-center justify-center text-xl flex-shrink-0">
+            <i class="fa-solid fa-truck-fast"></i>
+          </div>
+          <div>
+            <h4 class="text-white font-bold text-sm uppercase">Giao Xe Tận Nhà</h4>
+            <p class="text-xs text-slate-400 mt-1 leading-relaxed">Hỗ trợ giao xe chuyên dùng toàn quốc, bàn giao sang trọng chuẩn nghi thức VIP.</p>
+          </div>
+        </div>
+
+        <div class="flex items-start space-x-4">
+          <div class="w-12 h-12 rounded-2xl bg-white/5 border border-mercedes-amgRed/40 text-mercedes-amgRed flex items-center justify-center text-xl flex-shrink-0">
+            <i class="fa-solid fa-headset"></i>
+          </div>
+          <div>
+            <h4 class="text-white font-bold text-sm uppercase">Cứu Hộ 24/7 Star Assist</h4>
+            <p class="text-xs text-slate-400 mt-1 leading-relaxed">Hỗ trợ kỹ thuật khẩn cấp 24/7 trên mọi nẻo đường khắp 63 tỉnh thành Việt Nam.</p>
+          </div>
+        </div>
+
+        <div class="flex items-start space-x-4">
+          <div class="w-12 h-12 rounded-2xl bg-white/5 border border-mercedes-silver/40 text-mercedes-silver flex items-center justify-center text-xl flex-shrink-0">
+            <i class="fa-solid fa-building-columns"></i>
+          </div>
+          <div>
+            <h4 class="text-white font-bold text-sm uppercase">Hỗ Trợ Vay Đến 80%</h4>
+            <p class="text-xs text-slate-400 mt-1 leading-relaxed">Thủ tục phê duyệt online trong 30 phút, hạn mức vay tối đa, không cần chứng minh thu nhập phức tạp.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Footer Details: Showrooms, Contact, Legal -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 py-12">
+        
+        <!-- Brand & Description -->
+        <div class="space-y-4">
+          <div class="flex items-center space-x-3">
+            <div class="w-8 h-8 rounded-full border border-mercedes-silver/40 flex items-center justify-center text-mercedes-silver text-sm">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span class="text-lg font-heading font-black tracking-widest text-white uppercase">Mercedes-Benz</span>
+          </div>
+          <p class="text-xs leading-relaxed text-slate-400">
+            Đại lý ủy quyền chính thức lớn nhất của Mercedes-Benz tại Việt Nam. Nơi kiến tạo trải nghiệm mua sắm và sở hữu đỉnh cao với tiêu chuẩn MAR2020 hiện đại bậc nhất.
+          </p>
+          <div class="flex items-center space-x-3 pt-2 text-slate-400">
+            <a href="#" class="w-8 h-8 rounded-full bg-white/5 hover:bg-mercedes-gold hover:text-black flex items-center justify-center text-xs transition"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="w-8 h-8 rounded-full bg-white/5 hover:bg-mercedes-gold hover:text-black flex items-center justify-center text-xs transition"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="w-8 h-8 rounded-full bg-white/5 hover:bg-mercedes-gold hover:text-black flex items-center justify-center text-xs transition"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#" class="w-8 h-8 rounded-full bg-white/5 hover:bg-mercedes-gold hover:text-black flex items-center justify-center text-xs transition"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <!-- Showroom 1 (Miền Nam) -->
+        <div class="space-y-2 text-xs">
+          <h4 class="text-white font-bold uppercase tracking-wider text-sm mb-3">Showroom TP. Hồ Chí Minh</h4>
+          <p class="flex items-start space-x-2">
+            <i class="fa-solid fa-location-dot text-mercedes-gold mt-0.5"></i>
+            <span>Số 02 Trường Chinh, P. Tây Thạnh, Q. Tân Phú, TP. HCM</span>
+          </p>
+          <p class="flex items-start space-x-2">
+            <i class="fa-solid fa-location-dot text-mercedes-gold mt-0.5"></i>
+            <span>Số 811 - 813 Nguyễn Văn Linh, P. Tân Phong, Quận 7, TP. HCM</span>
+          </p>
+          <p class="flex items-center space-x-2 pt-2">
+            <i class="fa-solid fa-phone text-mercedes-gold"></i>
+            <span class="text-white font-bold">Hotline Nam: 0909.123.456</span>
+          </p>
+        </div>
+
+        <!-- Showroom 2 (Miền Bắc) -->
+        <div class="space-y-2 text-xs">
+          <h4 class="text-white font-bold uppercase tracking-wider text-sm mb-3">Showroom Hà Nội</h4>
+          <p class="flex items-start space-x-2">
+            <i class="fa-solid fa-location-dot text-mercedes-gold mt-0.5"></i>
+            <span>Số 05 Điện Biên Phủ, Q. Ba Đình, TP. Hà Nội</span>
+          </p>
+          <p class="flex items-start space-x-2">
+            <i class="fa-solid fa-location-dot text-mercedes-gold mt-0.5"></i>
+            <span>Số 386 Nguyễn Văn Linh, Q. Long Biên, TP. Hà Nội</span>
+          </p>
+          <p class="flex items-center space-x-2 pt-2">
+            <i class="fa-solid fa-phone text-mercedes-gold"></i>
+            <span class="text-white font-bold">Hotline Bắc: 0938.888.999</span>
+          </p>
+        </div>
+
+        <!-- Working Hours & Commitment -->
+        <div class="space-y-3 text-xs">
+          <h4 class="text-white font-bold uppercase tracking-wider text-sm mb-3">Giờ Phục Vụ &amp; Cam Kết</h4>
+          <p class="text-slate-300">
+            <i class="fa-regular fa-clock text-mercedes-gold mr-1.5"></i> Thứ 2 - Chủ Nhật: 08:00 - 20:00 (Phục vụ lái thử tận nhà 24/7).
+          </p>
+          <div class="p-3 rounded-xl bg-white/5 border border-white/10 text-[11px] text-slate-300">
+            <i class="fa-solid fa-certificate text-mercedes-gold mr-1"></i>
+            Xe luôn có sẵn kho đủ màu (Đen Obsidian, Trắng Polar, Xám Selenite, Xanh Cavansite), giao xe ngay trong ngày.
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright & Disclaimer -->
+      <div class="pt-8 border-t border-slate-800 dark:border-white/5 flex flex-col sm:flex-row items-center justify-between text-[11px] text-slate-500 gap-4">
+        <p>© 2026 Mercedes-Benz Vietnam Star Dealer. All rights reserved.</p>
+        <div class="flex items-center space-x-6">
+          <a href="#" class="hover:text-slate-300 transition">Chính Sách Bảo Mật</a>
+          <a href="#" class="hover:text-slate-300 transition">Điều Khoản Mua Hàng</a>
+          <a href="#" class="hover:text-slate-300 transition">Chính Sách Thu Cũ Đổi Mới</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- FLOATING QUICK CONTACT BAR (MOBILE & DESKTOP) -->
+  <aside aria-label="Kênh liên hệ nhanh" class="fixed bottom-6 right-6 z-40 flex flex-col space-y-3">
+    <!-- Zalo Button -->
+    <a href="https://zalo.me" target="_blank" rel="noopener noreferrer" class="w-13 h-13 p-3.5 rounded-full bg-blue-600 text-white flex items-center justify-center shadow-2xl hover:scale-110 transition duration-300 border-2 border-white/20" title="Chat Zalo ngay">
+      <i class="fa-solid fa-comment-dots text-lg"></i>
+    </a>
+    <!-- Phone Call Pulse -->
+    <a href="tel:0909123456" class="w-13 h-13 p-3.5 rounded-full bg-mercedes-amgRed text-white flex items-center justify-center shadow-2xl hover:scale-110 transition duration-300 border-2 border-white/20 glow-red animate-pulse" title="Gọi Hotline tư vấn">
+      <i class="fa-solid fa-phone text-lg"></i>
+    </a>
+  </aside>
+
+  <!-- ========================================== -->
+  <!-- MODAL: ĐĂNG KÝ LÁI THỬ TẬN NHÀ -->
+  <!-- ========================================== -->
+  <div id="testdrive-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-md hidden transition-opacity duration-300">
+    <div class="glass-card max-w-lg w-full mx-4 p-8 rounded-3xl border border-slate-200 dark:border-white/20 relative shadow-2xl animate-[fadeIn_0.3s_ease-out]">
+      <!-- Close Button -->
+      <button onclick="closeModal()" class="absolute top-5 right-5 text-slate-400 hover:text-slate-700 dark:hover:text-white text-xl">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="text-center mb-6">
+        <div class="w-12 h-12 rounded-full bg-mercedes-gold/15 text-mercedes-gold flex items-center justify-center mx-auto mb-3 text-xl">
+          <i class="fa-solid fa-key"></i>
+        </div>
+        <h3 class="text-xl sm:text-2xl font-heading font-bold text-slate-900 dark:text-white uppercase">Đăng Ký Lái Thử C300 AMG</h3>
+        <p class="text-xs text-slate-600 dark:text-mercedes-silverMuted mt-1">Trải nghiệm cảm giác dính lưng ghế thực tế tại Showroom hoặc tại chính tư gia của Quý Khách.</p>
+      </div>
+
+      <form onsubmit="handleModalSubmit(event)" class="space-y-4 text-xs">
+        <div>
+          <label class="block uppercase tracking-wider text-slate-700 dark:text-slate-300 font-bold mb-1">Họ Và Tên Của Quý Khách *</label>
+          <input type="text" required placeholder="Nguyễn Văn A" class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-mercedes-black border border-slate-300 dark:border-white/15 text-slate-900 dark:text-white focus:outline-none focus:border-mercedes-gold transition" />
+        </div>
+        <div>
+          <label class="block uppercase tracking-wider text-slate-700 dark:text-slate-300 font-bold mb-1">Số Điện Thoại Liên Hệ *</label>
+          <input type="tel" required pattern="[0-9]{10,11}" placeholder="0909 xxx xxx" class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-mercedes-black border border-slate-300 dark:border-white/15 text-slate-900 dark:text-white focus:outline-none focus:border-mercedes-gold transition" />
+        </div>
+        <div>
+          <label class="block uppercase tracking-wider text-slate-700 dark:text-slate-300 font-bold mb-1">Địa Điểm Lái Thử Mong Muốn *</label>
+          <select class="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-mercedes-black border border-slate-300 dark:border-white/15 text-slate-900 dark:text-white focus:outline-none focus:border-mercedes-gold transition">
+            <option>Lái thử tại tư gia / Nơi làm việc của tôi</option>
+            <option>Lái thử tại Showroom TP. Hồ Chí Minh</option>
+            <option>Lái thử tại Showroom Hà Nội</option>
+          </select>
+        </div>
+        <button type="submit" class="w-full py-4 rounded-xl font-heading font-extrabold text-xs uppercase tracking-wider bg-mercedes-amgRed hover:bg-mercedes-amgRedDark text-white shadow-lg glow-red transition mt-2">
+          Xác Nhận Đặt Lịch Lái Thử Ngay
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- SUCCESS TOAST NOTIFICATION -->
+  <div id="toast" class="fixed top-8 right-8 z-50 bg-emerald-600 text-white px-6 py-4 rounded-2xl shadow-2xl flex items-center space-x-3 transform transition duration-500 translate-y-[-150%] opacity-0">
+    <i class="fa-solid fa-circle-check text-2xl"></i>
+    <div>
+      <h5 class="font-bold text-sm">Gửi Thông Tin Thành Công!</h5>
+      <p class="text-xs text-emerald-100">Chuyên viên Mercedes-Benz sẽ gọi cho Quý Khách trong 5 phút tới.</p>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT CONTROLLERS -->
+  <script>
+    // 1. Dark / Light Mode Switcher with localStorage & system preference
+    function updateThemeUI(isDark) {
+      const themeIcons = document.querySelectorAll('.theme-icon');
+      const themeTexts = document.querySelectorAll('.theme-text');
+      
+      themeIcons.forEach(icon => {
+        if (isDark) {
+          icon.className = 'theme-icon fa-solid fa-sun text-amber-400 text-base';
+        } else {
+          icon.className = 'theme-icon fa-solid fa-moon text-slate-700 text-base';
+        }
+      });
+
+      themeTexts.forEach(text => {
+        text.textContent = isDark ? 'Giao diện Tối' : 'Giao diện Sáng';
+      });
+    }
+
+    function toggleTheme() {
+      const htmlEl = document.documentElement;
+      const willBeDark = !htmlEl.classList.contains('dark');
+      
+      if (willBeDark) {
+        htmlEl.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+      } else {
+        htmlEl.classList.remove('dark');
+        localStorage.setItem('theme', 'light');
+      }
+      
+      updateThemeUI(willBeDark);
+    }
+
+    // Initialize theme UI icon on load
+    document.addEventListener('DOMContentLoaded', () => {
+      const isDark = document.documentElement.classList.contains('dark');
+      updateThemeUI(isDark);
+    });
+
+    // 2. Mobile Menu Toggle
+    const mobileBtn = document.getElementById('mobile-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // 3. Countdown Timer
+    function startTimer() {
+      let duration = (3 * 24 * 3600) + (14 * 3600) + (28 * 60) + 45;
+      const display = document.getElementById('top-timer');
+      
+      setInterval(() => {
+        if (duration <= 0) return;
+        duration--;
+        const days = Math.floor(duration / (24 * 3600));
+        const hours = Math.floor((duration % (24 * 3600)) / 3600);
+        const minutes = Math.floor((duration % 3600) / 60);
+        const seconds = duration % 60;
+
+        display.textContent = 
+          String(days).padStart(2, '0') + 'd ' +
+          String(hours).padStart(2, '0') + ':' +
+          String(minutes).padStart(2, '0') + ':' +
+          String(seconds).padStart(2, '0');
+      }, 1000);
+    }
+    startTimer();
+
+    // 4. Roll-out Price Calculator Logic
+    const basePrice = 2099000000;
+    const fixedFees = 1900000 + 480000;
+
+    function formatVND(num) {
+      return num.toLocaleString('vi-VN') + ' VNĐ';
+    }
+
+    function setCity(city) {
+      const btnHanoi = document.getElementById('btn-hanoi');
+      const btnHcm = document.getElementById('btn-hcm');
+      const btnTinh = document.getElementById('btn-tinh');
+      const taxLabel = document.getElementById('tax-label');
+      const taxVal = document.getElementById('tax-val');
+      const plateVal = document.getElementById('plate-val');
+      const totalPrice = document.getElementById('total-price');
+      const downpayment = document.getElementById('downpayment-val');
+
+      // Reset styles with theme awareness
+      [btnHanoi, btnHcm, btnTinh].forEach(btn => {
+        btn.className = 'city-btn py-2.5 px-3 rounded-xl text-xs font-bold border border-slate-300 dark:border-white/20 bg-slate-100 dark:bg-white/5 hover:border-mercedes-gold transition text-slate-800 dark:text-white';
+      });
+
+      let taxRate = 0.10;
+      let plateFee = 20000000;
+
+      if (city === 'hanoi') {
+        taxRate = 0.12;
+        plateFee = 20000000;
+        btnHanoi.className = 'city-btn py-2.5 px-3 rounded-xl text-xs font-bold border border-mercedes-gold bg-mercedes-gold/20 text-mercedes-gold transition';
+        taxLabel.textContent = 'Lệ phí trước bạ (12%):';
+      } else if (city === 'hcm') {
+        taxRate = 0.10;
+        plateFee = 20000000;
+        btnHcm.className = 'city-btn py-2.5 px-3 rounded-xl text-xs font-bold border border-mercedes-gold bg-mercedes-gold/20 text-mercedes-gold transition';
+        taxLabel.textContent = 'Lệ phí trước bạ (10%):';
+      } else {
+        taxRate = 0.10;
+        plateFee = 1000000;
+        btnTinh.className = 'city-btn py-2.5 px-3 rounded-xl text-xs font-bold border border-mercedes-gold bg-mercedes-gold/20 text-mercedes-gold transition';
+        taxLabel.textContent = 'Lệ phí trước bạ (10%):';
+      }
+
+      const taxAmount = basePrice * taxRate;
+      const total = basePrice + taxAmount + plateFee + fixedFees;
+      const downPay = total * 0.20;
+
+      taxVal.textContent = formatVND(taxAmount);
+      plateVal.textContent = formatVND(plateFee);
+      totalPrice.textContent = formatVND(total);
+      downpayment.textContent = '~ ' + formatVND(downPay);
+    }
+
+    // 5. Modal Functions
+    function openModal() {
+      const modal = document.getElementById('testdrive-modal');
+      modal.classList.remove('hidden');
+    }
+    function closeModal() {
+      const modal = document.getElementById('testdrive-modal');
+      modal.classList.add('hidden');
+    }
+
+    document.getElementById('testdrive-modal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeModal();
+      }
+    });
+
+    // 6. Toast Notification
+    function showToast() {
+      const toast = document.getElementById('toast');
+      toast.classList.remove('translate-y-[-150%]', 'opacity-0');
+      toast.classList.add('translate-y-0', 'opacity-100');
+      setTimeout(() => {
+        toast.classList.remove('translate-y-0', 'opacity-100');
+        toast.classList.add('translate-y-[-150%]', 'opacity-0');
+      }, 4000);
+    }
+
+    function handleLeadSubmit(e) {
+      e.preventDefault();
+      showToast();
+      document.getElementById('lead-form').reset();
+    }
+
+    function handleModalSubmit(e) {
+      e.preventDefault();
+      closeModal();
+      showToast();
+    }
+  </script>
+</body>
+</html>
